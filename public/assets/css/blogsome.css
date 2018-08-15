@@ -1,0 +1,12 @@
+#logo {
+    height: 35px;
+}
+
+.ui.main.menu {
+    margin-top:0;
+    margin-bottom:0;
+}
+
+.ui.main.container {
+    width: 30%;
+}
