@@ -1,0 +1,20 @@
+{% include "header.twig" %}
+
+<form action="{{ urlFor('post.create') }}" method="POST">
+    <div class="ui form">
+        <div class="field">
+            <label>Title</label>
+            {# check if there is a value sent#}
+            <input type="text" name="title">
+        </div>
+        <div class="field">
+            <label>Text</label>
+            {# check if there is a value sent#}
+            <textarea name="text"></textarea>
+        </div>
+
+        <button class="ui button inverted positive">Submit</button>
+    </div>
+</form>
+    <div class="">{{ error }}</div>
+{% include "footer.twig" %}

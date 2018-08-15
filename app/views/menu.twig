@@ -1,0 +1,16 @@
+<div class="ui borderless main menu">
+    <div class="ui container">
+        <div class="ui header item">
+            <a href="{{ urlFor("home") }}">
+                <img src="{{ baseUrl() }}/assets/img/logo.png" alt="Blogsome Logo" id="logo">
+            </a>
+        </div>
+        <a class="item" href="{{ urlFor('posts.all') }}">Articles</a>
+        <a class="item" href="{{ urlFor('post.new') }}">New Post</a>
+        <div class="ui item right">
+            <a class="item" href="{{ urlFor('login.form') }}">Login</a>
+            <a class="item" href="{{ urlFor('logout') }}">Logout</a>
+            <a class="item" href="{{ urlFor('signup.form') }}">Sign up</a>
+        </div>
+    </div>
+</div>

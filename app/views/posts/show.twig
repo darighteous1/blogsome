@@ -1,0 +1,8 @@
+{% include "header.twig" %}
+<div class="ui container">
+    <a href="{{ urlFor('home') }}">Home</a>
+    <h1>{{ post.title }}</h1>
+    <div>{{ post.content }}</div>
+    <div class="author">Posted by: {{ post.author }} on {{ post.date }} at {{ post.time }}</div>
+</div>
+{% include "footer.twig" %}

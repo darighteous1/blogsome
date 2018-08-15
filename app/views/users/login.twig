@@ -1,0 +1,10 @@
+{% include "header.twig" %}
+<div>{{ errors }}</div>
+<form class="ui form" action="{{ urlFor("login.process") }}" method="POST">
+    <label>Username</label>
+    <input class="item" type="text" name="username">
+    <label>Password</label>
+    <input class="item" type="password" name="password">
+    <button class="ui button positive right floated">Login</button>
+</form>
+{% include "footer.twig" %}
