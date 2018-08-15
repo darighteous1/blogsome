@@ -7,23 +7,5 @@
     <div class="author">Author: {{ post.author }}</div>
     <div class="ui divider"></div>
 {% endfor %}
-{% for post in posts %}
-    <h1><a href="{{ urlFor('post.show', {'id': post.id}) }}">{{ post.title }}</a></h1>
-    <p>{{ post.content[:150] }}</p>
-    <div class="author">Author: {{ post.author }}</div>
-    <div class="ui divider"></div>
-{% endfor %}
-{% for post in posts %}
-    <h1><a href="{{ urlFor('post.show', {'id': post.id}) }}">{{ post.title }}</a></h1>
-    <p>{{ post.content[:150] }}</p>
-    <div class="author">Author: {{ post.author }}</div>
-    <div class="ui divider"></div>
-{% endfor %}
-{% for post in posts %}
-    <h1><a href="{{ urlFor('post.show', {'id': post.id}) }}">{{ post.title }}</a></h1>
-    <p>{{ post.content[:150] }}</p>
-    <div class="author">Author: {{ post.author }}</div>
-    <div class="ui divider"></div>
-{% endfor %}
 
 {% include "footer.twig" %}
