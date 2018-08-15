@@ -1,0 +1,14 @@
+{
+  "autoload": {
+    "psr-4": {
+      "Blogsome\\": "app/Blogsome"
+    }
+  },
+  "require": {
+    "php": "7.2.4",
+    "slim/slim": "~2.6",
+    "illuminate/database": "~5.0",
+    "slim/views": "~0.1",
+    "twig/twig": "~1.0"
+  }
+}
